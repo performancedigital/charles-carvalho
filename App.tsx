@@ -11,7 +11,7 @@ import { Footer } from './components/Footer';
 
 const App: React.FC = () => {
   const handleWhatsapp = () => {
-    window.open('https://wa.me/5511984840494?text=Olá Charles, gostaria de um diagnóstico estratégico.', '_blank');
+    window.open('https://wa.me/5511984840494?text=Olá Charles, gostaria de um diagnóstico estratégico para alavancagem de patrimônio.', '_blank');
   };
 
   return (
