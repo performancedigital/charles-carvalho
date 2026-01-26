@@ -9,7 +9,7 @@ export const Authority: React.FC = () => {
           <div className="absolute inset-0 bg-gold/5 -z-10 translate-x-6 translate-y-6"></div>
           {/* FOTO 02 - Polo Vermelha / Sorrindo de Frente */}
           <img 
-            src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=1000" 
+            src="/img/02.png" 
             alt="Charles Carvalho Mentor - Foto 02" 
             className="shadow-2xl w-full h-full object-cover grayscale-[20%] group-hover:grayscale-0 transition-all duration-1000 aspect-[4/5] rounded-sm"
           />
