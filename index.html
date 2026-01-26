@@ -1,0 +1,228 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mentor Charles Carvalho | Alavancagem Patrimonial</title>
+    
+    <!-- Fontes Premium -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS CDN (Versão Estável) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'p-dark': '#0B1120',
+              'gold': '#C5A059',
+            },
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+              serif: ['Playfair Display', 'serif'],
+            }
+          }
+        }
+      }
+    </script>
+    
+    <style>
+        body { margin: 0; padding: 0; scroll-behavior: smooth; overflow-x: hidden; }
+        
+        /* Estilização do Slider Customizado */
+        input[type=range] { -webkit-appearance: none; background: transparent; width: 100%; }
+        input[type=range]::-webkit-slider-runnable-track { background: #1e293b; height: 6px; border-radius: 3px; }
+        input[type=range]::-webkit-slider-thumb { 
+          -webkit-appearance: none; height: 26px; width: 26px; border-radius: 50%; 
+          background: #C5A059; margin-top: -10px; cursor: pointer; border: 4px solid #ffffff; 
+          box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+        }
+
+        .gold-glow { box-shadow: 0 0 20px rgba(197, 160, 89, 0.2); }
+        .btn-hover { transition: all 0.3s ease; }
+        .btn-hover:hover { transform: translateY(-3px); box-shadow: 0 10px 20px rgba(0,0,0,0.2); }
+        
+        /* Botão Whatsapp Fixo */
+        .wp-float {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            z-index: 9999;
+            background: #25D366;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+            cursor: pointer;
+            transition: transform 0.3s;
+        }
+        .wp-float:hover { transform: scale(1.1); }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/"
+  }
+}
+</script>
+</head>
+<body class="bg-white font-sans text-p-dark">
+
+    <!-- BOTÃO WHATSAPP -->
+    <a href="https://wa.me/5500000000000?text=Olá Charles, vim pelo site e quero um diagnóstico." target="_blank" class="wp-float">
+        <svg class="w-8 h-8 fill-current" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.438 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/></svg>
+    </a>
+
+    <!-- SEÇÃO HERO -->
+    <section class="relative min-h-screen flex items-center bg-p-dark text-white pt-16 pb-24 px-6 overflow-hidden">
+        <div class="absolute inset-0 opacity-10 pointer-events-none">
+            <div class="absolute top-0 right-0 w-[600px] h-[600px] bg-gold rounded-full blur-[150px] -translate-y-1/2 translate-x-1/2"></div>
+        </div>
+
+        <div class="max-w-7xl mx-auto w-full relative z-10 grid lg:grid-cols-12 gap-12 items-center">
+            <div class="lg:col-span-7">
+                <span class="inline-block px-4 py-1 border border-gold text-gold text-[10px] font-bold mb-6 tracking-[0.3em] uppercase">
+                    Estrategista Patrimonial
+                </span>
+                <h1 class="text-5xl md:text-7xl font-bold mb-8 leading-[1.1] tracking-tight font-serif">
+                    Multiplique seu <br />
+                    <span class="text-gold italic">Patrimônio</span> com <br /> Inteligência.
+                </h1>
+                <p class="text-lg md:text-xl text-slate-400 mb-10 max-w-xl leading-relaxed font-light">
+                    Use a mentoria de consórcio estratégico de Charles Carvalho para alavancar seus investimentos com foco em ROI e segurança.
+                </p>
+                <a href="https://wa.me/5500000000000" class="btn-hover inline-block px-10 py-5 bg-gold text-white font-bold rounded-sm text-sm uppercase tracking-[0.2em]">
+                    Agendar Diagnóstico Gratuito
+                </a>
+            </div>
+
+            <div class="lg:col-span-5 relative group">
+                <div class="absolute -inset-4 border border-gold/20 translate-x-4 translate-y-4 -z-0"></div>
+                <img src="https://i.imgur.com/vHUP0M1.png" alt="Charles Carvalho" class="relative z-10 w-full rounded-sm grayscale-[15%]">
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO SIMULADOR -->
+    <section class="py-24 px-6 bg-slate-50">
+        <div class="max-w-5xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-5xl font-bold mb-4 font-serif">Simulador de Estratégia</h2>
+                <p class="text-slate-500">Planeje seu próximo grande investimento imobiliário.</p>
+            </div>
+
+            <div class="bg-white rounded-2xl shadow-2xl overflow-hidden grid lg:grid-cols-2">
+                <!-- Inputs -->
+                <div class="p-8 md:p-12 space-y-10">
+                    <div>
+                        <div class="flex justify-between items-end mb-6">
+                            <label class="text-xs font-bold uppercase text-slate-400">Crédito Desejado</label>
+                            <span id="label-valor" class="text-2xl font-bold text-p-dark">R$ 500.000</span>
+                        </div>
+                        <input type="range" id="input-valor" min="200000" max="5000000" step="50000" value="500000">
+                    </div>
+
+                    <div>
+                        <label class="block text-xs font-bold uppercase text-slate-400 mb-6">Prazo em Meses</label>
+                        <div class="grid grid-cols-3 gap-3">
+                            <button onclick="setPrazo(60, this)" class="btn-prazo py-3 bg-p-dark text-white font-bold text-sm border-2 border-p-dark rounded-lg">60m</button>
+                            <button onclick="setPrazo(120, this)" class="btn-prazo py-3 bg-white text-slate-400 font-bold text-sm border-2 border-slate-100 rounded-lg">120m</button>
+                            <button onclick="setPrazo(180, this)" class="btn-prazo py-3 bg-white text-slate-400 font-bold text-sm border-2 border-slate-100 rounded-lg">180m</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Resultado -->
+                <div class="bg-p-dark p-8 md:p-12 text-white flex flex-col justify-center">
+                    <p class="text-gold text-[10px] uppercase font-bold tracking-[0.2em] mb-4">Parcela Mensal Sugerida</p>
+                    <p id="label-parcela" class="text-5xl md:text-6xl font-bold mb-10 italic font-serif">R$ 9.500</p>
+                    <button onclick="enviarWhatsApp()" class="btn-hover w-full py-5 bg-gold text-white font-bold uppercase text-xs tracking-widest rounded-lg">
+                        Validar Cenário no WhatsApp
+                    </button>
+                    <p class="text-[10px] text-slate-500 mt-6 text-center leading-relaxed">
+                        *Cálculo baseado em taxa de administração média de mercado. O valor exato depende da análise do grupo.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO AUTORIDADE -->
+    <section class="py-24 px-6 max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-16">
+        <div class="md:w-1/2">
+            <img src="https://i.imgur.com/O6L6oV6.png" alt="Charles Carvalho Autoridade" class="w-full grayscale shadow-2xl rounded-sm">
+        </div>
+        <div class="md:w-1/2">
+            <span class="text-gold font-bold uppercase text-[10px] tracking-widest mb-4 block">Estrategista</span>
+            <h2 class="text-4xl font-bold mb-8 font-serif leading-tight">O Mentor dos Grandes <span class="text-gold">Negócios</span>.</h2>
+            <p class="text-slate-600 text-lg mb-8 leading-relaxed font-light">
+                Com 14 anos de mercado, Charles Carvalho não vende cotas; ele constrói estratégias de alavancagem para quem entende que o tempo é o ativo mais valioso.
+            </p>
+            <div class="grid grid-cols-2 gap-8 border-t border-slate-100 pt-8">
+                <div><p class="text-4xl font-bold text-p-dark font-serif">14</p><p class="text-[10px] uppercase font-bold text-slate-400">Anos de Mercado</p></div>
+                <div><p class="text-4xl font-bold text-p-dark font-serif">1k+</p><p class="text-[10px] uppercase font-bold text-slate-400">Mentorados</p></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-p-dark py-24 text-center text-white border-t border-white/5 px-6">
+        <h2 class="text-4xl font-bold mb-10 font-serif leading-tight">Mude seu jogo <span class="text-gold">patrimonial</span>.</h2>
+        <a href="https://wa.me/5500000000000" class="btn-hover inline-block bg-gold px-12 py-6 text-white font-bold uppercase text-xs tracking-[0.3em]">
+            Falar com o Mentor
+        </a>
+    </footer>
+
+    <!-- LÓGICA DO SIMULADOR (JAVASCRIPT PURO) -->
+    <script>
+        let valorAtual = 500000;
+        let prazoAtual = 60;
+
+        const inputValor = document.getElementById('input-valor');
+        const labelValor = document.getElementById('label-valor');
+        const labelParcela = document.getElementById('label-parcela');
+
+        function calcular() {
+            // Regra: (Valor / Prazo) + 14% de taxa total (aprox)
+            const parcela = (valorAtual / prazoAtual) * 1.14;
+            labelValor.innerText = 'R$ ' + valorAtual.toLocaleString('pt-BR');
+            labelParcela.innerText = 'R$ ' + Math.round(parcela).toLocaleString('pt-BR');
+        }
+
+        function setPrazo(meses, element) {
+            prazoAtual = meses;
+            document.querySelectorAll('.btn-prazo').forEach(btn => {
+                btn.classList.remove('bg-p-dark', 'text-white', 'border-p-dark');
+                btn.classList.add('bg-white', 'text-slate-400', 'border-slate-100');
+            });
+            element.classList.add('bg-p-dark', 'text-white', 'border-p-dark');
+            element.classList.remove('bg-white', 'text-slate-400', 'border-slate-100');
+            calcular();
+        }
+
+        inputValor.addEventListener('input', (e) => {
+            valorAtual = parseInt(e.target.value);
+            calcular();
+        });
+
+        function enviarWhatsApp() {
+            const msg = `Olá Charles, simulei R$ ${valorAtual.toLocaleString('pt-BR')} em ${prazoAtual} meses. Gostaria de um diagnóstico.`;
+            window.open(`https://wa.me/5500000000000?text=${encodeURIComponent(msg)}`, '_blank');
+        }
+
+        // Inicia o cálculo
+        calcular();
+    </script>
+
+</body>
+</html>
