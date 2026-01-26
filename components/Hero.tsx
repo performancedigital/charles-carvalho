@@ -57,8 +57,7 @@ export const Hero: React.FC = () => {
             <div className="relative overflow-hidden rounded-sm border border-white/10 shadow-2xl bg-slate-800 aspect-[4/5]">
               {/* FOTO 01 - Camisa Azul / Olhando para o lado */}
               <img 
-                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=1000" 
-                  alt="Charles Carvalho Mentor - Foto 01" 
+                  src="/img/01.jpg"
                   className="w-full h-full object-cover grayscale-[10%] group-hover:grayscale-0 transition-all duration-1000 scale-105 group-hover:scale-100"
               />
             </div>
