@@ -14,7 +14,7 @@ export const Problem: React.FC = () => {
       <div className="text-center mb-16">
         <h2 className="text-3xl md:text-5xl font-bold mb-6">Por que a maioria investe mal?</h2>
         <p className="text-lg text-slate-500 max-w-2xl mx-auto">
-          O mercado está cheio de "vendedores de cota". O que falta é consultoria real.
+          O mercado está cheio de "vendedores de consorcio". O que falta é consultoria real.
         </p>
       </div>
 

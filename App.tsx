@@ -11,16 +11,16 @@ import { Footer } from './components/Footer';
 
 const App: React.FC = () => {
   const handleWhatsapp = () => {
-    window.open('https://wa.me/5500000000000?text=Olá Charles, gostaria de um diagnóstico estratégico.', '_blank');
+    window.open('https://wa.me/5511984840494?text=Olá Charles, gostaria de um diagnóstico estratégico.', '_blank');
   };
 
   return (
     <div className="min-h-screen bg-white selection:bg-gold selection:text-white">
-      {/* Botão Flutuante */}
+      {/* Botão Flutuante WhatsApp */}
       <div className="whatsapp-float">
         <button 
           onClick={handleWhatsapp}
-          className="bg-[#25D366] p-4 rounded-full shadow-2xl text-white flex items-center justify-center"
+          className="bg-[#25D366] p-4 rounded-full shadow-2xl text-white flex items-center justify-center hover:scale-110 transition-transform"
           aria-label="Contato via WhatsApp"
         >
           <svg className="w-8 h-8 fill-current" viewBox="0 0 24 24">

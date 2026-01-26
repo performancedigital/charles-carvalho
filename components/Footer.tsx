@@ -2,8 +2,11 @@
 import React from 'react';
 
 export const Footer: React.FC = () => {
-  const handleCTA = () => {
-    window.open('https://wa.me/5500000000000?text=Olá Charles, gostaria de agendar meu diagnóstico estratégico de alto padrão.', '_blank');
+  const scrollToSimulator = () => {
+    const element = document.getElementById('simulator');
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
   };
 
   return (
@@ -16,10 +19,10 @@ export const Footer: React.FC = () => {
           Agende seu <strong>Diagnóstico Gratuito</strong> diretamente com Charles Carvalho.
         </p>
         <button 
-          onClick={handleCTA}
+          onClick={scrollToSimulator}
           className="px-16 py-6 bg-gold hover:bg-[#b38f4d] text-white font-bold rounded-sm transition-all shadow-2xl text-lg uppercase tracking-widest"
         >
-          Agendar Mentoria via WhatsApp
+          Agendar Mentoria Estratégica
         </button>
         <div className="mt-24 pt-10 border-t border-white/10 text-slate-500 text-[10px] uppercase tracking-[0.2em]">
           <p>© {new Date().getFullYear()} Charles Carvalho Mentor. Excelência em Consórcio e Investimento Estratégico.</p>
