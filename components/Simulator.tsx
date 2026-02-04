@@ -83,17 +83,11 @@ Gostaria de agendar minha mentoria estratégica.`;
                     R$ {Math.round(estimatedInstallment).toLocaleString('pt-BR')}
                 </p>
                 
-                <div className="space-y-6 mb-12 border-l-2 border-gold/30 pl-6">
-                  <p className="text-sm text-slate-400 leading-relaxed font-light">
-                    *Esta simulação utiliza uma base estratégica de alavancagem para grupos de elite.
-                  </p>
-                </div>
-
                 <button 
                     onClick={handleCTA}
                     className="w-full py-6 bg-gold hover:bg-[#b38f4d] text-white font-bold rounded-sm transition-all shadow-2xl uppercase text-xs tracking-[0.3em]"
                 >
-                    Falar com Charles Carvalho agora
+                    Validar com Charles Carvalho
                 </button>
             </div>
           </div>

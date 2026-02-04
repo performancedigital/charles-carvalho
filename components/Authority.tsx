@@ -7,10 +7,9 @@ export const Authority: React.FC = () => {
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-16">
         <div className="md:w-1/2 relative group w-full max-w-md lg:max-w-none mx-auto">
           <div className="absolute inset-0 bg-gold/5 -z-10 translate-x-6 translate-y-6"></div>
-          {/* FOTO 02 - Polo Vermelha / Sorrindo de Frente */}
           <img 
-            src="/img/02.png" 
-            alt="Charles Carvalho Mentor - Foto 02" 
+            src="./02.png" 
+            alt="Mentor Charles Carvalho" 
             className="shadow-2xl w-full h-full object-cover grayscale-[20%] group-hover:grayscale-0 transition-all duration-1000 aspect-[4/5] rounded-sm"
           />
         </div>
@@ -24,7 +23,7 @@ export const Authority: React.FC = () => {
               Com mais de <strong>14 anos no mercado financeiro</strong>, Charles Carvalho transformou a maneira como o consórcio é visto: de uma simples "compra de bem" para uma <strong>ferramenta poderosa de alavancagem</strong>.
             </p>
             <p>
-              Sua mentoria técnica remove a névoa das taxas bancárias e entrega ao investidor o controle absoluto sobre o tempo e o custo do capital. É a ciência do <strong>investimento imobiliário</strong> aplicada à realidade de quem não aceita menos que a excelência.
+              Sua mentoria técnica remove a névoa das taxas bancárias e entrega ao investidor o controle absoluto sobre o tempo e o custo do capital.
             </p>
             <div className="grid grid-cols-2 gap-6 pt-6 border-t border-slate-200">
               <div>

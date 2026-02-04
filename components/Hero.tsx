@@ -29,8 +29,7 @@ export const Hero: React.FC = () => {
               <span className="text-gold italic">Inteligência</span>.
             </h1>
             
-            {/* FRASE CENTRALIZADA ABAIXO DO TÍTULO */}
-            <p className="text-lg md:text-2xl text-slate-400 mb-12 max-w-2xl leading-relaxed font-light mx-auto lg:mx-0 text-center lg:text-left">
+            <p className="text-lg md:text-2xl text-slate-400 mb-12 max-w-2xl leading-relaxed font-light mx-auto text-center lg:mx-0 lg:text-left">
               Não é sobre comprar uma cota. É sobre usar a <strong>inteligência financeira</strong> para multiplicar patrimônio sem pagar os juros abusivos do sistema bancário.
             </p>
             
@@ -52,12 +51,12 @@ export const Hero: React.FC = () => {
             </div>
           </div>
 
-          <div className="lg:col-span-5 relative group w-full max-w-md lg:max-w-none">
+          <div className="lg:col-span-5 relative group w-full max-w-md lg:max-w-none mx-auto">
             <div className="absolute -inset-4 border border-gold/10 translate-x-6 translate-y-6 -z-10 group-hover:translate-x-3 group-hover:translate-y-3 transition-all duration-1000"></div>
             <div className="relative overflow-hidden rounded-sm border border-white/10 shadow-2xl bg-slate-800 aspect-[4/5]">
-              {/* FOTO 01 - Camisa Azul / Olhando para o lado */}
               <img 
-                  src="/img/01.jpg"
+                  src="./01.jpg" 
+                  alt="Charles Carvalho Mentor" 
                   className="w-full h-full object-cover grayscale-[10%] group-hover:grayscale-0 transition-all duration-1000 scale-105 group-hover:scale-100"
               />
             </div>
