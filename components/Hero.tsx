@@ -55,7 +55,7 @@ export const Hero: React.FC = () => {
             <div className="absolute -inset-4 border border-gold/10 translate-x-6 translate-y-6 -z-10 group-hover:translate-x-3 group-hover:translate-y-3 transition-all duration-1000"></div>
             <div className="relative overflow-hidden rounded-sm border border-white/10 shadow-2xl bg-slate-800 aspect-[4/5]">
               <img 
-                  src="./01.jpg" 
+                  src="./charles-hero.jpg" 
                   alt="Charles Carvalho Mentor" 
                   className="w-full h-full object-cover grayscale-[10%] group-hover:grayscale-0 transition-all duration-1000 scale-105 group-hover:scale-100"
               />
