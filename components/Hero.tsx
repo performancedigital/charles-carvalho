@@ -40,25 +40,17 @@ export const Hero: React.FC = () => {
               >
                 Agendar Mentoria Estratégica
               </button>
-              <div className="flex items-center gap-4 justify-center">
-                  <div className="flex -space-x-3">
-                      <div className="w-10 h-10 rounded-full border-2 border-premium-dark bg-slate-800 flex items-center justify-center text-[10px] font-bold">RF</div>
-                      <div className="w-10 h-10 rounded-full border-2 border-premium-dark bg-slate-700 flex items-center justify-center text-[10px] font-bold">LM</div>
-                      <div className="w-10 h-10 rounded-full border-2 border-premium-dark bg-slate-600 flex items-center justify-center text-[10px] font-bold">AS</div>
-                  </div>
-                  <p className="text-[10px] text-slate-500 uppercase tracking-widest font-bold">Elite de Investidores</p>
-              </div>
             </div>
           </div>
 
           <div className="lg:col-span-5 relative group w-full max-w-md lg:max-w-none mx-auto">
             <div className="absolute -inset-4 border border-gold/10 translate-x-6 translate-y-6 -z-10 group-hover:translate-x-3 group-hover:translate-y-3 transition-all duration-1000"></div>
             <div className="relative overflow-hidden rounded-sm border border-white/10 shadow-2xl bg-slate-800 aspect-[4/5]">
-              <img
-  src="https://raw.githubusercontent.com/performancedigital/charles-carvalho/main/charles-hero.jpg"
-  alt="Charles Carvalho Mentor"
-  className="w-full h-full object-cover grayscale-[10%] group-hover:grayscale-0 transition-all duration-1000 scale-105 group-hover:scale-100"
-/>
+              <img 
+                  src="https://raw.githubusercontent.com/performancedigital/charles-carvalho/main/charles-hero.jpg" 
+                  alt="Charles Carvalho Mentor" 
+                  className="w-full h-full object-cover grayscale-[10%] group-hover:grayscale-0 transition-all duration-1000 scale-105 group-hover:scale-100"
+              />
             </div>
           </div>
         </div>

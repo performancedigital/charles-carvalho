@@ -8,7 +8,7 @@ export const Authority: React.FC = () => {
         <div className="md:w-1/2 relative group w-full max-w-md lg:max-w-none mx-auto">
           <div className="absolute inset-0 bg-gold/5 -z-10 translate-x-6 translate-y-6"></div>
           <img 
-            src="./02.png" 
+            src="https://raw.githubusercontent.com/performancedigital/charles-carvalho/main/charles-about.png" 
             alt="Mentor Charles Carvalho" 
             className="shadow-2xl w-full h-full object-cover grayscale-[20%] group-hover:grayscale-0 transition-all duration-1000 aspect-[4/5] rounded-sm"
           />
