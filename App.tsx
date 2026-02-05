@@ -5,12 +5,12 @@ import React, { useState, useMemo } from 'react';
 const IMAGES = {
   hero: "https://raw.githubusercontent.com/performancedigital/charles-carvalho/main/charles-hero.jpg", // Mentor em terno
   authority: "https://raw.githubusercontent.com/performancedigital/charles-carvalho/main/charles-about.png", // Close do mentor
-  insta1: "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?q=80&w=600&auto=format&fit=crop", // Gráficos
-  insta2: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=600&auto=format&fit=crop", // Laptop/Finanças
-  insta3: "https://images.unsplash.com/photo-1454165833762-02cd4f4aa89d?q=80&w=600&auto=format&fit=crop", // Reunião
-  insta4: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=600&auto=format&fit=crop", // Análise de dados
-  insta5: "https://images.unsplash.com/photo-1553729459-efe14ef6055d?q=80&w=600&auto=format&fit=crop", // Dinheiro/Mãos
-  insta6: "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?q=80&w=600&auto=format&fit=crop"  // Investimento Crescendo
+  insta1: "https://raw.githubusercontent.com/performancedigital/charles-carvalho/main/insta-01.jpg",
+  insta2: "https://raw.githubusercontent.com/performancedigital/charles-carvalho/main/insta-02.jpg",
+  insta3: "https://raw.githubusercontent.com/performancedigital/charles-carvalho/main/insta-03.jpg",
+  insta4: "https://raw.githubusercontent.com/performancedigital/charles-carvalho/main/insta-04.jpg",
+  insta5: "https://raw.githubusercontent.com/performancedigital/charles-carvalho/main/insta-05.jpg",
+  insta6: "https://raw.githubusercontent.com/performancedigital/charles-carvalho/main/insta-06.jpg",
 };
 
 // --- COMPONENTES ---
