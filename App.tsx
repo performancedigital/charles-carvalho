@@ -3,7 +3,7 @@ import React, { useState, useMemo } from 'react';
 
 // --- IMAGENS DE ALTA QUALIDADE (Caso você tenha as fotos reais, basta substituir os links abaixo) ---
 const IMAGES = {
-  hero: "hero: "https://raw.githubusercontent.com/performancedigital/charles-carvalho/main/charles-hero.jpg", // Mentor em terno
+  hero: "https://raw.githubusercontent.com/performancedigital/charles-carvalho/main/charles-hero.jpg", // Mentor em terno
   authority: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1000&auto=format&fit=crop", // Close do mentor
   insta1: "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?q=80&w=600&auto=format&fit=crop", // Gráficos
   insta2: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=600&auto=format&fit=crop", // Laptop/Finanças
