@@ -1,7 +1,7 @@
 
 import React, { useState, useMemo } from 'react';
 
-// --- IMAGENS DE ALTA QUALIDADE ---
+// --- IMAGENS DE ALTA QUALIDADE (Caso você tenha as fotos reais, basta substituir os links abaixo) ---
 const IMAGES = {
   hero: "https://raw.githubusercontent.com/performancedigital/charles-carvalho/main/charles-hero.jpg", // Mentor em terno
   authority: "https://raw.githubusercontent.com/performancedigital/charles-carvalho/main/charles-about.png", // Close do mentor
